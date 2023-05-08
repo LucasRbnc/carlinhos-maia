@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+body {
+  background: url(img/bg_main.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* Estilos para a logo */
+.logo {
+  float: left;
+  position: absolute;
+  width: 50%;
+  height: auto;
+}
+/* Estilos para o menu */
+.menu {
+  float: right;
+  margin: 10px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+  font-family: "Mantserrat", sans-serif;
+}
+
+.menu li {
+  display: inline-block;
+}
+.menu li a{
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  opacity: 48%;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+#home{
+    opacity: 100%;
+}
